@@ -4,14 +4,6 @@ from datetime import datetime
 from ortools.sat.python import cp_model
 import io
 
-# 🔒 Sección de pago
-if st.button("💳 Pagar y activar acceso"):
-    st.markdown(
-        "[Haz clic aquí para completar el pago](https://buy.stripe.com/test_4gM4gB1ID6Ova3OaoW3wQ00)",
-        unsafe_allow_html=True
-    )
-
-
 st.set_page_config(page_title="Asignador de Guardias", layout="wide")
 st.title("🩺 Asignador de Guardias Médicas")
 
