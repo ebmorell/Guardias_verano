@@ -4,6 +4,19 @@ from datetime import datetime
 from ortools.sat.python import cp_model
 import io
 
+# 🔒 Sección de pago
+st.markdown("### 🔒 Activar acceso completo")
+st.markdown(
+    """
+    Para acceder a todas las funcionalidades del planificador de guardias, realiza un pago único.
+
+    👉 [**Haz clic aquí para pagar**](https://buy.stripe.com/test_4gM4gB1ID6Ova3OaoW3wQ00)
+    """,
+    unsafe_allow_html=True
+)
+
+
+
 st.set_page_config(page_title="Asignador de Guardias", layout="wide")
 st.title("🩺 Asignador de Guardias Médicas")
 
